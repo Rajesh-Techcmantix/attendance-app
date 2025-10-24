@@ -90,7 +90,7 @@ export default function AttendanceDashboard() {
         licenseKey="non-commercial-and-evaluation"
         stretchH="all"
         contextMenu={true}
-        className="border border-gray-300 rounded-lg"
+        // className="border border-gray-300 rounded-lg"
       />
 
       <button
