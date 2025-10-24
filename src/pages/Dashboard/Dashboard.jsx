@@ -11,12 +11,7 @@ export default function AttendanceDashboard() {
   const [result, setResult] = useState({ intervals: [], totalTime: "0h 0m" });
 
   // Sample data pasted from Excel
-  const data = [
-    ["1", "Rajesh", "19", "22-10-2025", "06:53 PM"],
-    ["2", "Rajesh", "19", "22-10-2025", "02:18 PM"],
-    ["3", "Rajesh", "19", "22-10-2025", "01:43 PM"],
-    ["4", "Rajesh", "19", "22-10-2025", "09:56 AM"],
-  ];
+  const data = [["", "", "", "", ""]];
 
   const headers = ["S.No", "Name", "UserId", "Date", "Time"];
 
